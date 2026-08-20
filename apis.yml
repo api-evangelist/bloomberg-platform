@@ -58,6 +58,12 @@ apis:
   - AWS
   - Azure
   - Google Cloud
+  - Cloud-Native
+  tags_raw:
+  - Cloud
+  - AWS
+  - Azure
+  - Google Cloud
   - Cloud Native
   properties:
   - type: Documentation
