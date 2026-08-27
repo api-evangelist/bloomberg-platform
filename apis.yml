@@ -1,9 +1,8 @@
 aid: bloomberg-platform
 name: Bloomberg Platform
-description: The Bloomberg Platform is the integrated technology infrastructure underpinning
-  all Bloomberg professional products and services. It encompasses the data distribution
-  network, cloud and on-premises deployment options, API connectivity layer, identity
-  and access management, and enterprise integration capabilities that connect Bloomberg
+description: The Bloomberg Platform is the integrated technology infrastructure underpinning all Bloomberg professional
+  products and services. It encompasses the data distribution network, cloud and on-premises deployment options,
+  API connectivity layer, identity and access management, and enterprise integration capabilities that connect Bloomberg
   data and analytics to client systems.
 type: Index
 accessModel:
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-platform.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-platform/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Platform
@@ -33,9 +32,8 @@ tags:
 apis:
 - aid: bloomberg-platform:blpapi
   name: Bloomberg Open API (BLPAPI)
-  description: The foundational API layer of the Bloomberg Platform providing real-time,
-    reference, and historical data access through a socket-based protocol with SDKs
-    for multiple programming languages.
+  description: The foundational API layer of the Bloomberg Platform providing real-time, reference, and historical
+    data access through a socket-based protocol with SDKs for multiple programming languages.
   humanURL: https://bloomberg.github.io/blpapi-docs/
   baseURL: blpapi://localhost:8194
   tags:
@@ -49,8 +47,8 @@ apis:
     url: https://github.com/bloomberg/blpapi-node
 - aid: bloomberg-platform:bloomberg-cloud-api
   name: Bloomberg Cloud Connect
-  description: Cloud-native connectivity to Bloomberg data enabling access from AWS,
-    Azure, and Google Cloud environments without on-premises Bloomberg infrastructure.
+  description: Cloud-native connectivity to Bloomberg data enabling access from AWS, Azure, and Google Cloud environments
+    without on-premises Bloomberg infrastructure.
   humanURL: https://www.bloomberg.com/professional/solution/cloud/
   baseURL: https://api.bloomberg.com/cloud
   tags:
@@ -70,9 +68,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/cloud/
 - aid: bloomberg-platform:bloomberg-identity-api
   name: Bloomberg Identity and Access Management
-  description: Authentication and authorization services for the Bloomberg Platform
-    providing entitlement management, user authentication, and access control for
-    Bloomberg data and applications.
+  description: Authentication and authorization services for the Bloomberg Platform providing entitlement management,
+    user authentication, and access control for Bloomberg data and applications.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
   baseURL: https://auth.bloomberg.com
   tags:
@@ -84,6 +81,11 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/support/api-library/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: IssueTracker
   url: https://github.com/bloomberg/blpapi-node/issues
 - type: CodeOfConduct
@@ -131,3 +133,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
