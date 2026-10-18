@@ -72,7 +72,7 @@ apis:
   tags:
   - Cloud
   - AWS
-  - Azure
+  - Microsoft Azure
   - Google Cloud
   - Cloud-Native
   tags_raw:
